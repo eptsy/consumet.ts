@@ -1875,6 +1875,9 @@ class Anilist extends AnimeParser {
       throw new Error((err as Error).message);
     }
   };
+  static search(params:string) {
+    let s = ''
+  }
 
   /**
    *
